@@ -1,6 +1,8 @@
 .App {
   font-family: sans-serif;
   text-align: center;
+  display:flex;
+  justify-content: center;
 }
 
 body {
@@ -22,14 +24,22 @@ section {
   display:flex;
 }
 
+.weather {
+  margin: 5px;
+  border: 2px solid black;
+  padding: 3px;
+}
+
 section .weather {
  border: 1px solid #ccc;
  flex: 1;
  padding:10px;
  text-align:center;
+
 }
 
 .weather span {
   font-weight: bold;
+ 
 }
 

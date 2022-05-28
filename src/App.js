@@ -10,7 +10,7 @@ export default function App() {
     return <WeatherForecast img={ele.img} conditions={ele.conditions} time={ele.time} key={index} />
   })
   return (
-    <div className="App">
+    <div className="App"> 
       {allWeatherData}
     </div>
   );
